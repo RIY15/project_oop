@@ -1,0 +1,223 @@
+/* Set margin dan padding default ke 0 untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  /* Navbar styling */
+  .logo img{
+    height: 50px;
+    width: 50px;
+    margin: 5px 580px 0 0;
+  }
+
+   .navbar {
+    background-color: white;
+    width: 100%;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    border-bottom: 1px solid black;
+    z-index: 1;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 30px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+  }
+  
+  .navbar ul li .btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li .btn:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 110px;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar ul li a:hover::after {
+    width: 100%;
+  }
+  
+  /* Konten styling */
+  .content1 {
+    text-align: right;
+    padding: 60px 50px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+  }
+  
+  .content1 p {
+    width: 400px;
+    margin: 20px 0 20px auto;
+    text-align: justify;
+  }
+  
+    .content1 .btn {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .content1 .btn:hover {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    width: 140px;
+    height: 50px;
+  }
+
+  .content2{
+    text-align: left;
+    padding: 0 0 40px 20px;
+    width:70%;
+  }
+
+  /* footer styling */
+.footer {
+    background-color: #1E2833;
+    height: 230px;
+    color: white;
+    display: flex;
+  }
+
+  .footer-box {
+    width: 50%;
+    height: 180px;
+    margin: 20px;
+    border-right: 1px solid gray;
+  }
+
+/* 
+  find Blood Page */
+.logo-item {
+  background-color: #550832;
+  width: 30%;
+  height: 550px;
+  margin: 130px 50px 20px 50px;
+  border-radius: 10px;
+}
+
+.header {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.findBlood-input {
+  margin-top: 130px;
+  margin-left: 50px;
+   height: 520px;
+  width: 50%; 
+  text-align: center;
+}
+
+.form-findblood {
+  background-color: whitesmoke;
+  margin: 50px 0 0 100px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi pada transformasi dan box-shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow yang terlihat awalnya */
+  width: 70%;
+}
+
+
+.form-findblood:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); 
+}
+
+.input-findblood {
+  padding-left: 150px;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+.input-findblood:hover {
+  transform: translateY(-5px);
+}
+
+.detail-input {
+  padding-top: 60px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.form-findblood select {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-findblood button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.form-findblood button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+  
+  
+
+
+
+  
